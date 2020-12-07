@@ -762,3 +762,13 @@
   content: '\26A1'; }
 
 /* ⚡ */
+           Instalasi ├─ scss Source Sass files.  Use this folder as a load path in Sass.
+ ├─ js Source JavaScript files.  If you're using a build system, make sure `foundation.core.js` is loaded first.
+ └─ dist Compiled files:
+    ├─ css * Compiled CSS files.  Includes minified and unminified files.
+    ├─ js * Concatenated JavaScript files.  Includes minified and unminified files.
+    └─ plugins * Standalone JavaScript plugins.
+#Install with Foundation CLI
+npm install --global foundation-cli
+ # or sudo npm install --global foundation-cli
+#automate
